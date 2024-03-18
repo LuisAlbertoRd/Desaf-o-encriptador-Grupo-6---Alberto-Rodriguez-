@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contenedor-pagina">
+    <header>
+        
+        <div class="caja">
+            <h1>
+                <img src="Images/Logo.png" alt="Logo">
+            </h1>
+        </div>
+
+    </header>
+
+    <main>
+        <label for="texto-a-procesar" class="instrucciones">Ingresa el texto aquí</label>
+        <!-- <h1 class="instrucciones">Ingresa el texto aquí</h1> -->
+        <div class="contenedor-texto">
+            <!-- <input type="text"> -->
+            <textarea cols="90" rows="40" id="textoTecleado"></textarea>
+        </div>
+            
+
+        <div class="botones">
+            <button onclick="encriptarMenosImagen();" class="boton-encriptar">Encriptar</button>
+            <button onclick="desencriptarMenosImagen();" class="boton-desencriptar">Desencriptar</button>
+        </div>
+
+        <div class="texto-procesado" id="imagenDinamica">
+            <p id="txtPass">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.</p>
+            <div class="imagen-dinamica" id="imgBorrar">
+                <img src="Images/Muñeco.png" alt="Muñeco sentado">
+            </div>
+
+            <button onclick="copiarTexto();" class="boton-copiar">Copiar</button>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+
+    <footer>
+        <p class="pie-de-pagina">Elaborado por Luis Alberto Rodríguez González - 2024</p>
+    </footer>
+
+
+</body>
+</html>

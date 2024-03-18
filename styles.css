@@ -1,0 +1,143 @@
+.contenedor-pagina{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background: #dfdfe1;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 100%;
+    max-width: 300px;
+    margin:auto, 0;  
+}
+
+.instrucciones{
+    position: absolute;
+    width: 100%;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+
+.contenedor-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    position: absolute;
+    width: 100%;
+
+    left: 240px;
+    top: 226px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+
+.boton-encriptar{
+    border-radius: 16px;
+    background: #0A3871;
+    padding: 16px 24px;
+    width: 100%;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    border: none;
+    margin-top: 2rem;
+}
+
+.boton-desencriptar{
+    border-radius: 16px;
+    background: #D8DFE8;
+    padding: 16px 24px;
+    width: 100%;
+    border: 1px solid #0A3871;
+    color: #0A3871; 
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.texto-procesado{
+    /* Rectangle 1 */
+    position: absolute;
+    width: 400px;
+    height: 968px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+    background: #FFFFFF;
+    /* shadow */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.texto-procesado p{
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 0;
+    color: #0A3871;
+    height: 781px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.imagen-dinamica{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 32px;
+    top: 283px;
+}
+
+.boton-copiar{
+    position: absolute;
+    
+    width: 336px;
+
+    border-radius: 16px;
+    background: #D8DFE8;
+    padding: 16px 24px;
+   
+    left: 32px;
+    border: 1px solid #0A3871;
+    color: #0A3871; 
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 56px;  
+
+}
+
+.pie-de-pagina{
+    color: #0A3871;
+    position: absolute;
+    top: 1044px;
+    left: 20%;
+}
